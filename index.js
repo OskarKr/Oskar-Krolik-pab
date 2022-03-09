@@ -31,5 +31,5 @@ app.get('/pomnoz', function(req, res){
     let result = num1 * num2;
     res.send(`Wynik dodawania to: ${result}`);
 });
-//cos
+
 app.listen(3000);
